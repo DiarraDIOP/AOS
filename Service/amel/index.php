@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bootstrap arena</title>
+        <title>FDJ - Testez votre ticket ! </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
@@ -19,54 +19,63 @@
     <div class="col-md-12">
                     <h2><img class="img" src="images/logo_FDJ.png" style="width:200px; height:100px;"/></h2>
                     <hr />
-                </div>
-                 <div class="col-md-2">
-                    <ul class="nav nav-pills nav-stacked" style="width:200px; height:100px;">
-                        <li role="presentation" class="active"><a href="#">Loto</a></li>
-                        <li role="presentation"><a href="#">Euro Million</a></li>
-                        <li role="presentation"><a href="#">Autres</a></li>
-                    </ul>
-                 </div>
-    <div class="col-md-10" align="center">
-        <h3>5 numéros</h3>
-            <div class="input-group">
-                            <input type="number" class="form-control" style="width:50px; height:50px;">
-                            <input type="number" class="form-control" style="width:50px; height:50px;">
-                            <input type="number" class="form-control" style="width:50px; height:50px;">
-                            <input type="number" class="form-control" style="width:50px; height:50px;">
-                            <input type="number" class="form-control" style="width:50px; height:50px;">
-                       
-                      </div>
-                        <img class="img" src="images/Capture.png" width="150" height="100"/>
-                            <input type="number" class="form-control" style="width:50px; height:50px;">
-                        <hr/>
-                            <div class="container">
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Testez votre ticket
-  </button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
     </div>
-  </div>
-  
-</div>
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked" style="width:200px; height:100px;">
+			<li role="presentation" class="active"><a href="#"><strong> <em>LOTO </em></strong> </a></li>
+			<li role="presentation"><a href="#"><strong>Euro Million</strong></a></li>
+			<li role="presentation"><a href="#"><strong>Autres</strong></a></li>
+		</ul>
+    </div>
+    <div class="col-md-10" align="center" >
+		<div class="container">
+			<div class="col-md-1 col-md-offset-1"><br>
+				<img class="img" src="images/numeros_loto.png" /><br><br><br>
+				<img class="img" src="images/Capture.png" /> 
+			</div>
+			
+			<div class="col-md-3">
+				<div class="input-group">
+							<input type="number" class="form-control" style="width:50px; height:50px;">
+							<input type="number" class="form-control" style="width:50px; height:50px;">
+							<input type="number" class="form-control" style="width:50px; height:50px;">
+							<input type="number" class="form-control" style="width:50px; height:50px;">
+							<input type="number" class="form-control" style="width:50px; height:50px;">
+							
+				</div><br>
+				<input type="number" class="form-control" style="width:50px; height:50px;">  </td>
+			</div>
+			
+			<div class="col-md-4">
+				<img src="images/loto.jpg" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg);">
+			</div>
+	
+		</div>
+		<div class="container center"><br><br><br><br><br><br>
+		  <!-- BUTTON -->
+		  <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal"> Testez votre ticket </button>
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+			  <!-- Modal content-->
+			  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+					  <p>Some text in the modal.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+			  </div>
+			  
+			</div>
+		  </div>
+		  
+		</div>
     </div>
    
   </div>

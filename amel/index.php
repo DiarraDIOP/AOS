@@ -17,21 +17,25 @@
         <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-                    <h2><img class="img" src="images/logo_FDJ.png"/></h2>
+                    <h2><img class="img" src="images/logo_FDJ.png" style="width:200px; height:100px;"/></h2>
                     <hr />
                 </div>
                  <div class="col-md-2">
+                    <ul class="nav nav-pills nav-stacked" style="width:200px; height:100px;">
+                        <li role="presentation" class="active"><a href="#">Loto</a></li>
+                        <li role="presentation"><a href="#">Euro Million</a></li>
+                        <li role="presentation"><a href="#">Autres</a></li>
+                    </ul>
                  </div>
     <div class="col-md-10" align="center">
         <h3>5 numéros</h3>
-            <div class="row">
-            <p class="span6">
+            <div class="input-group">
                             <input type="number" class="form-control" style="width:50px; height:50px;">
                             <input type="number" class="form-control" style="width:50px; height:50px;">
                             <input type="number" class="form-control" style="width:50px; height:50px;">
                             <input type="number" class="form-control" style="width:50px; height:50px;">
                             <input type="number" class="form-control" style="width:50px; height:50px;">
-                        </p>
+                       
                       </div>
                         <img class="img" src="images/Capture.png" width="150" height="100"/>
                             <input type="number" class="form-control" style="width:50px; height:50px;">

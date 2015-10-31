@@ -49,7 +49,7 @@
 
 
 				</div><br>
-				<input type="number" class="form-control" style="width:50px; height:50px;">  </td>
+				<input type="number" name="numeroChance" class="form-control" style="width:50px; height:50px;">  </td>
 			</div>
 			
 			<div class="col-md-4">

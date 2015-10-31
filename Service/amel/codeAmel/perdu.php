@@ -33,8 +33,10 @@
 			
 			
 			<div class="col-md-3">
-                 <img src="images/feu.png" style="width:400px; height:200px;"/>
-				<img src="images/gagner.png" style="width:400px; height:200px;"/>
+				<br/><br/><br/>
+				<img src="images/perdu.png" style="width:400px; height:200px;"/>
+                 <img src="images/fdj-loto.png" style="width:400px; height:200px;"/>
+				
 			</div>
 			
 			<div class="col-md-6">

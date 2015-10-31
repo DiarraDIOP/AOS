@@ -22,7 +22,7 @@
     </div>
     <div class="col-md-2">
         <ul class="nav nav-pills nav-stacked" style="width:200px; height:100px;">
-			<li role="presentation" class="active"><a href="#"><strong> <em>LOTO </em></strong> </a></li>
+			<li role="presentation" class="active"><a href="client.php"><strong> <em>LOTO </em></strong> </a></li>
 			<li role="presentation"><a href="#"><strong>Euro Million</strong></a></li>
 			<li role="presentation"><a href="#"><strong>Autres</strong></a></li>
 		</ul>

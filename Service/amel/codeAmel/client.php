@@ -3,10 +3,11 @@ include("lib/nusoap.php");
 include("index.php");
 
 $client = new soapclient("http://localhost/WebServiceSoap/server.php?wsdl");
-$prenom = $_POST['numero1']; 
-$result    =    $client->gethelloworld("Hello");
-echo $result;
 
+$result    =    $client->gethelloworld("Hello");
+
+if (isset($_POST['numero1']) && isset($_POST['numero2'])) {
+$prenom = $_POST['numero1']; 
 $nom = $_POST['numero2']; 
-echo "valeurs :".$nom.$prenom; 
+}
 ?>

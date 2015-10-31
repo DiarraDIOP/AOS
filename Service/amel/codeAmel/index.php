@@ -53,33 +53,13 @@
 			</div>
 			
 			<div class="col-md-4">
-				<img src="images/loto.jpg" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg);"/>
+				<img src="images/loto.png" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg); height :100px; width:200px;"/>
 			</div>
 	
 		</div>
-		<div class="container center"><br><br><br><br><br><br>
+		<div ><br><br><br><br><br><br>
 		  <!-- BUTTON -->
-          <input type="submit" name="btn" value="Testez votre ticket" id="submitBtn" data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-lg" />
-
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">
-			<div class="modal-dialog">
-			  <!-- Modal content-->
-			  <div class="modal-content">
-					<div class="modal-header">
-					  <button type="button" class="close" data-dismiss="modal">&times;</button>
-					  <h4 class="modal-title">Modal Header</h4>
-					</div>
-					<div class="modal-body">
-					  <p>Some text in the modal.</p>
-					</div>
-					<div class="modal-footer">
-					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-			  </div>
-			  
-			</div>
-		  </div>
+          <input type="submit" name="btn" value="Testez votre ticket" id="submitBtn" class="btn btn-warning btn-lg" />
 		  
 		</div>
     </div>

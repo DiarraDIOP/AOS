@@ -29,61 +29,21 @@
     </div>
     
     <div class="col-md-10" align="center" >
-        <form method="post" action="client.php">
 		<div class="container">
-			<div class="col-md-1 col-md-offset-1"><br>
-				<img class="img" src="images/numeros_loto.png" /><br><br><br>
-				<img class="img" src="images/Capture.png" /> 
-			</div>
+			
 			
 			<div class="col-md-3">
-                 
-				<div class="input-group">
-                    
-							<input type="number" name="numero1" class="form-control" style="width:50px; height:50px;">
-							<input type="number" name="numero2" class="form-control" style="width:50px; height:50px;">
-							<input type="number" name="numero3" class="form-control" style="width:50px; height:50px;">
-							<input type="number" name="numero4" class="form-control" style="width:50px; height:50px;">
-							<input type="number" name="numero5" class="form-control" style="width:50px; height:50px;">
-
-
-
-				</div><br>
-				<input type="number" class="form-control" style="width:50px; height:50px;">  </td>
+                 <img src="images/feu.png" style="width:400px; height:200px;"/>
+				<img src="images/gagner.png" style="width:400px; height:200px;"/>
 			</div>
 			
-			<div class="col-md-4">
-				<img src="images/loto.jpg" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg);"/>
+			<div class="col-md-6">
+				<img src="images/loto.png" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg); height :100px; width:200px;"/>
 			</div>
 	
 		</div>
-		<div class="container center"><br><br><br><br><br><br>
-		  <!-- BUTTON -->
-          <input type="submit" name="btn" value="Testez votre ticket" id="submitBtn" data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-lg" />
-
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">
-			<div class="modal-dialog">
-			  <!-- Modal content-->
-			  <div class="modal-content">
-					<div class="modal-header">
-					  <button type="button" class="close" data-dismiss="modal">&times;</button>
-					  <h4 class="modal-title">Modal Header</h4>
-					</div>
-					<div class="modal-body">
-					  <p>Some text in the modal.</p>
-					</div>
-					<div class="modal-footer">
-					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-			  </div>
-			  
-			</div>
-		  </div>
-		  
-		</div>
+		
     </div>
-   </form>
   </div>
 </div>
       

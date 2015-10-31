@@ -38,7 +38,7 @@
 			</div>
 			
 			<div class="col-md-6">
-				<img src="images/loto.jpg" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg);"/>
+				<img src="images/loto.png" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg); height :100px; width:200px;"/>
 			</div>
 	
 		</div>

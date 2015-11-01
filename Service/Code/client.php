@@ -2,7 +2,7 @@
 include("lib/nusoap.php");
 include("index.php");
 
-$client = new soapclient("http://localhost/FDJ/server.php?wsdl");   
+$client = new soapclient("http://localhost/AOS/Service/Code/server.php?wsdl");   
 
 
 if (isset($_POST['numero1']) && isset($_POST['numero2']) && isset($_POST['numero3']) && isset($_POST['numero4']) 

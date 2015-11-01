@@ -32,22 +32,24 @@
       <form method="post" action="client.php">
     		<div class="container">
     			<div class="col-md-1 col-md-offset-1"><br>
+                    <br><br>
     				<img class="img" src="images/numeros_loto.png" /><br><br><br>
     				<img class="img" src="images/Capture.png" /> 
     			</div>
     			
     			<div class="col-md-4">
-                     
+                     <label style="font-family:Arial; color:blue; size:20;">Entrez les numéros de votre ticket :</label>
+                     <br><br>
     				<div class="input-group">
                         
-    							<input type="number" name="numero1" class="form-control" style="width:60px; height:50px;">
-    							<input type="number" name="numero2" class="form-control" style="width:60px; height:50px;">
-    							<input type="number" name="numero3" class="form-control" style="width:60px; height:50px;">
-    							<input type="number" name="numero4" class="form-control" style="width:60px; height:50px;">
-    							<input type="number" name="numero5" class="form-control" style="width:60px; height:50px;">
+    							<input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+    							<input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+    							<input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+    							<input type="number" name="numero4" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+    							<input type="number" name="numero5" class="form-control" style="width:60px; height:50px;" min="1" max="49">
 
     				</div><br>
-    				<input type="number" name="numeroChance" class="form-control" style="width:60px; height:50px;">  </td>
+    				<input type="number" name="numeroChance" class="form-control" style="width:60px; height:50px;" min="1" max="10">  </td>
     			</div>
     			
     			<div class="col-md-4">

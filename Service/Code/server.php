@@ -1,8 +1,10 @@
 <?php
 require_once("lib/nusoap.php");
+//on crée une instance de serveur
 $server = new soap_server();
 $server->configureWSDL('server','urn:server');
 
+//on enregistre une méthode
 $server->register("verifTicket",
 				array("name" => "xsd:string", "numero1" => "xsd:number", "numero2" => "xsd:number",
 				"numero3" => "xsd:number", "numero4" => "xsd:number",
@@ -10,7 +12,7 @@ $server->register("verifTicket",
 				array("return" => "xsd:boolean"),
 				"urn:fdj","urn:fdj#verifTicket");
 		 
-
+//définition des methodes
 	function recupereResultats($name){
 
 		//téléchargement du fichier depuis le lien du site de la FDJ
@@ -61,7 +63,8 @@ $server->register("verifTicket",
 	}
 
 
- 
+ //on envoie le résultat.
+
 $HTTP_RAW_POST_DATA = isset($HTTP_RAW_POST_DATA) ? $HTTP_RAW_POST_DATA : '';
 $server->service($HTTP_RAW_POST_DATA);
 ?>

@@ -1,39 +1,22 @@
 <?php
-
 include("lib/nusoap.php");
-	
-	
-	//téléchargement du fichier depuis le lien de la FDJ
-	file_put_contents("nouveau_loto.zip", file_get_contents("https://media.fdj.fr/generated/game/loto/nouveau_loto.zip"));
-      
-    //le dézipper
-	$zip = new ZipArchive;
-	$res = $zip->open('nouveau_loto.zip');
-	if ( $res === TRUE) {
-	    $zip->extractTo('./');
-	    $zip->close();
-	} else {
-	    var_dump($res);
-	}
+include("index.php");
 
-	
-	$ligne = 1; // compteur de ligne
-	$fic = fopen("nouveau_loto.csv", "a+");
-	while($tab=fgetcsv($fic,1024,';'))
-	{
-		$champs = count($tab);//nombre de champ dans la ligne en question   
-		$ligne ++;
-		//affichage de chaque champ de la ligne en question
-		for($i=0; $i<$champs; $i ++)
-		{
-			
-		}
-	}
+$client = new soapclient("http://localhost/WebServiceSoap/server.php?wsdl");   
 
-/*
-	$client = new soapclient("http://localhost/WebServiceSOAP/server.php?wsdl");
-	$result    =    $client->gethelloworld("Milap Patel");
-	echo "<pre>";
-	print_r($result);
-	echo "</pre>";*/
+
+if (isset($_POST['numero1']) && isset($_POST['numero2']) && isset($_POST['numero3']) && isset($_POST['numero4']) 
+	&& isset($_POST['numero5']) && isset($_POST['numeroChance'])) {
+
+
+	//appel du service
+	$res = $client->verifTicket("nouveau_loto", intval($_POST['numero1']), intval($_POST['numero2']), intval($_POST['numero3']), intval($_POST['numero4']), intval($_POST['numero5']), intval($_POST['numeroChance']));
+
+	if($res){
+		header('location: gagner.php'); 
+	}else{
+		header('location: perdu.php'); 
+	}
+}
+
 ?>

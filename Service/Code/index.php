@@ -156,13 +156,13 @@
                      <br><br>
                     <div class="input-group">
                         
-                                <input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="1" max="49">
-                                <input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="1" max="49">
-                                <input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="1" max="49">
-                                <input type="number" name="numero4" class="form-control" style="width:60px; height:50px;" min="1" max="49">                        
-                                <input type="number" name="numero5" class="form-control" style="width:60px; height:50px;" min="1" max="49">
-                                <input type="number" name="numero6" class="form-control" style="width:60px; height:50px;" min="1" max="49">
-                                <input type="number" name="numero7" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+                                <input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero4" class="form-control" style="width:60px; height:50px;" min="0" max="49">                        
+                                <input type="number" name="numero5" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero6" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero7" class="form-control" style="width:60px; height:50px;" min="0" max="49">
 
                     </div>
                 </div>

@@ -125,6 +125,7 @@ $server->register("verifTicket3",
 
 	function recupereJoker($name){
 
+
 		//téléchargement du fichier depuis le lien du site de la FDJ
 		file_put_contents($name.".zip", file_get_contents("https://media.fdj.fr/generated/game/jokerplus/".$name.".zip"));
 	      
@@ -140,6 +141,7 @@ $server->register("verifTicket3",
 
 		//Récuperation de la deuxième 
 		$ligne = 1; // compteur de lignes
+
 		$resultats = array();
 		$fic = fopen($name.".csv", "a+");
 		while($tab=fgetcsv($fic,1024,';'))
@@ -149,7 +151,9 @@ $server->register("verifTicket3",
 			//affichage de le 2ème ligne
 			if ($ligne >2 && $ligne <4){
 				//affichage de la 5ème colonne
-					$resultats[$i-4] = $tab[4];
+
+					$resultats = $tab[4];
+
 			}
 		}
 		return $resultats;
@@ -157,14 +161,12 @@ $server->register("verifTicket3",
 
 
 	function verifTicket3($name, $numero1, $numero2, $numero3, $numero4, $numero5, $numero6, $numero7) {
-		$resulats = recupereJoker($name);
+		$result = recupereJoker($name);
 		$res = TRUE;
-		// comparaison des résultats 
-		if ($resulats[0] != $numero1 || $resulats[1] != $numero2 || $resulats[2] != $numero3 ||
-			 $resulats[3] != $numero4 || $resulats[4] != $numero5 || $resulats[5] != $numero6 ||
-			  $resulats[6] != $numero7 ){
-			$res = FALSE;
-		}
+
+		if(strcmp(strval($result), strval($numero1." ".$numero2.$numero3.$numero4." ".$numero5.$numero6.$numero7))!=0){
+			$res=FALSE;
+}
 		return $res;
 	}
 

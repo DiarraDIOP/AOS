@@ -72,20 +72,17 @@ if (isset($_GET['x'] )) {
 
 		if (isset($_POST['numero1']) && isset($_POST['numero2']) && isset($_POST['numero3']) && isset($_POST['numero4']) 
 			&& isset($_POST['numero5']) && isset($_POST['numero6']) && isset($_POST['numero7'])) {
-			$tab = recupereJoker("jokerplus");
+
 
 			//appel du service
 			$res = $client->verifTicket3("jokerplus", intval($_POST['numero1']), intval($_POST['numero2']), intval($_POST['numero3']), intval($_POST['numero4']), intval($_POST['numero5']), intval($_POST['numero6']), intval($_POST['numero7'])); 
 		
 			if($res){
-				//header('location: gagner.php'); 
-				echo  intval($_POST['numero1'])." ". intval($_POST['numero2'])." ". intval($_POST['numero3']).' ' .intval($_POST['numero4'])." ". intval($_POST['numero5'])." ". intval($_POST['numero6'])." ". intval($_POST['numero7']);
-				echo $tab[0]." ".$tab[1]." | ".$tab[2]." | ".$tab[3]." | ".$tab[4]." | ".$tab[5]." | ".$tab[6];
+				header('location: gagner.php'); 
 				
 			}else{
-				//header('location: perdu.php'); 
-				echo  intval($_POST['numero1'])." ". intval($_POST['numero2'])." ". intval($_POST['numero3']).' ' .intval($_POST['numero4'])." ". intval($_POST['numero5'])." ". intval($_POST['numero6'])." ". intval($_POST['numero7']);
-				echo $tab[0];
+				header('location: perdu.php'); 
+
 				
 			}
 		}

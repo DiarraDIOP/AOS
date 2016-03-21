@@ -115,6 +115,7 @@
                      <br><br>
                     <div class="input-group">
                         
+<<<<<<< HEAD
                                 <input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="1" max="50">
                                 <input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="1" max="50">
                                 <input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="1" max="50">
@@ -125,6 +126,18 @@
                     <div class="input-group">
                                 <input type="number" name="etoile1" class="form-control" style="width:60px; height:50px;" min="1" max="11">
                                 <input type="number" name="etoile2" class="form-control" style="width:60px; height:50px;" min="1" max="11">
+=======
+                                <input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+                                <input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+                                <input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+                                <input type="number" name="numero4" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+                                <input type="number" name="numero5" class="form-control" style="width:60px; height:50px;" min="1" max="49">
+
+                    </div><br>
+                    <div class="input-group">
+                                <input type="number" name="etoile1" class="form-control" style="width:60px; height:50px;" min="1" max="10">
+                                <input type="number" name="etoile2" class="form-control" style="width:60px; height:50px;" min="1" max="10">
+>>>>>>> 883393d0f1260534846a2922cfe4229fdc20f95f
                     </div>
                     
                 </div>
@@ -156,6 +169,7 @@
                      <br><br>
                     <div class="input-group">
                         
+<<<<<<< HEAD
                                 <input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="0" max="9">
                                 <input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="0" max="9">
                                 <input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="0" max="9">
@@ -163,6 +177,15 @@
                                 <input type="number" name="numero5" class="form-control" style="width:60px; height:50px;" min="0" max="9">
                                 <input type="number" name="numero6" class="form-control" style="width:60px; height:50px;" min="0" max="9">
                                 <input type="number" name="numero7" class="form-control" style="width:60px; height:50px;" min="0" max="9">
+=======
+                                <input type="number" name="numero1" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero2" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero3" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero4" class="form-control" style="width:60px; height:50px;" min="0" max="49">                        
+                                <input type="number" name="numero5" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero6" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+                                <input type="number" name="numero7" class="form-control" style="width:60px; height:50px;" min="0" max="49">
+>>>>>>> 883393d0f1260534846a2922cfe4229fdc20f95f
 
                     </div>
                 </div>

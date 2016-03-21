@@ -22,9 +22,9 @@
     </div>
     <div class="col-md-2">
         <ul class="nav nav-pills nav-stacked" style="width:200px; height:100px;">
-			<li role="presentation" class="active"><a href="client.php"><strong> <em>LOTO </em></strong> </a></li>
-			<li role="presentation"><a href="#"><strong>Euro Million</strong></a></li>
-			<li role="presentation"><a href="#"><strong>Autres</strong></a></li>
+            <li role="presentation"><a href="index.php?x=loto"><strong> <em>LOTO </em></strong> </a></li>
+            <li role="presentation"><a href="index.php?x=euro"><strong>Euro Million</strong></a></li>
+            <li role="presentation"><a href="index.php?x=joker"><strong>Jocker+</strong></a></li>
 		</ul>
     </div>
     
@@ -35,10 +35,6 @@
 			<div class="col-md-3">
                  <img src="images/feu.png" style="width:400px; height:200px;"/>
 				<img src="images/gagner.png" style="width:400px; height:200px;"/>
-			</div>
-			
-			<div class="col-md-6">
-				<img src="images/loto.png" class="img-responsive img-circle" alt="Responsive image" style="-ms-transform: rotate(15deg); -webkit-transform: rotate(15deg); height :100px; width:200px;"/>
 			</div>
 	
 		</div>
